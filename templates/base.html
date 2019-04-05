@@ -1,0 +1,54 @@
+{% load staticfiles%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}"/>
+
+
+	{% block head_extra %}{% endblock head_extra %}
+
+</head>
+
+<body>
+     <!--  <div class="ui secondary  menu">
+        <a class="item">
+          Profile
+        </a>
+        <a class="item">
+          Home
+        </a>
+        <div class="right menu">
+          <a class="ui item">
+            Logout
+          </a>
+        </div>
+      </div> -->
+
+
+{% block extend_body %} {% endblock extend_body %}
+
+{% block controllers %} {% endblock controllers %}
+
+
+  <div class="ui inverted vertical footer segment form-page" id="footer">
+    <div class="ui container">
+      <center>
+      Primus 2018. All Rights Reserved @ primus.io
+    </center>
+    </div>
+</div>
+</body>
+
+
+
+
+
+</html>

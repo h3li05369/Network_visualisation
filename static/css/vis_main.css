@@ -1,0 +1,56 @@
+#mynetwork{
+    position:fixed;
+    border:2px solid black;
+    width:100vw;
+    height:100vh;
+}
+.multi-select {
+	position:fixed;
+	top:20px;
+	left:20px;
+	border:0px solid black;
+}
+.fstElement{
+	border:0px solid black !important;
+}
+.fstControls{
+	border:1px solid rgb(30, 188, 188);
+}
+.multi-select input {
+	top:20px;
+	left:20px;
+	width:300px;
+	height:34px;
+	color:red;
+}
+.multi-select input::-webkit-input-placeholder {
+color: rgb(30, 188, 188) !important;
+}
+ 
+.multi-select input:-moz-placeholder { /* Firefox 18- */
+color: rgb(30, 188, 188) !important;  
+}
+ 
+.multi-select input::-moz-placeholder {  /* Firefox 19+ */
+color: rgb(30, 188, 188) !important;  
+}
+ 
+.multi-select input:-ms-input-placeholder {  
+color: rgb(30, 188, 188) !important;  
+}
+#reload {
+	position:fixed;
+	left:375px;
+	top:20px;
+	height:54px;
+	width:54px;
+	background:rgba(0,0,0,0);
+	border:1px solid rgb(30, 188, 188);
+}
+#reload img{
+	position:fixed;
+	left:375px;
+	top:20px;
+	height:54px;
+	width:54px;
+}
